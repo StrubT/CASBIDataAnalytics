@@ -1,0 +1,39 @@
+CAR,MODEL,SIZE,RELIABLE,FUEL,MPGCITY,DAMAGE,REL,SIZ,BIG3
+Acura,Integra,small,much better,520,22,none,5,1,no
+Dodge,Omni,small,much worse,515,20,extensive,1,1,yes
+Ford,Escort,small,worse,455,23,none,2,1,yes
+Ford,Festiva,small,much better,405,28,none,5,1,yes
+Geo,Metro,small,average,345,31,none,3,1,yes
+Honda,Civic,small,much better,470,23,none,5,1,no
+Pontiac,Le Mans,small,much worse,535,18,none,1,1,yes
+Toyota,Tercel,small,much better,435,26,none,5,1,no
+Volkswagen,Fox,small,average,470,24,minor,3,1,no
+Volkswagen,Jetta,small,better,580,19,extensive,4,1,no
+Yugo,,small,much worse,490,23,extensive,1,1,no
+Chevrolet,Camaro,sporty,much worse,760,13,minor,1,2,yes
+Dodge,Daytona,sporty,much worse,555,18,minor,1,2,yes
+Ford,Mustang,sporty,worse,780,13,none,2,2,yes
+Honda,CRX,sporty,much better,450,25,none,5,2,no
+Alfa Romeo,Milano,compact,,715,14,extensive,,3,no
+Audi,_80/90,compact,,555,19,none,,3,no
+BMW,_325i,compact,better,666,16,minor,4,3,no
+Chevrolet,Beretta,compact,much worse,605,17,none,1,3,yes
+Buick,Skyhawk,compact,worse,550,19,,2,3,yes
+Ford,Tempo,compact,much worse,635,17,none,1,3,yes
+Honda,Accord,compact,much better,550,19,none,5,3,no
+Peugeot,_405,compact,worse,630,17,extensive,2,3,no
+Plymoutn,Sundance,compact,average,595,18,minor,3,3,yes
+Oldsmobile,Cutlass,compact,worse,630,16,none,2,3,yes
+Volvo,_240,compact,average,685,16,none,3,3,no
+Acura,Legend,medium,much better,755,13,none,5,4,no
+Buick,Century,medium,average,635,16,extensive,3,4,yes
+Chrysler,Le Baron,medium,worse,680,15,minor,2,4,yes
+Chrysler,New Yorker,medium,average,690,14,minor,3,4,yes
+Ford,Taurus,medium,average,640,15,minor,3,4,yes
+Pontiac,Grand Prix,medium,much worse,645,15,minor,1,4,yes
+Saab,_9000,medium,average,735,13,none,3,4,no
+Chevrolet,Caprice,large,much worse,825,12,minor,1,5,yes
+Ford,LTD Crown,large,average,760,13,none,3,5,yes
+Oldsmobile,_88 Royale,large,average,650,15,extensive,3,5,yes
+Pontiac,Bonneville,large,average,735,13,none,3,5,yes
+Volvo,_740/760,medium,average,,15,none,3,4,no

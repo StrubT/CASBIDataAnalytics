@@ -1,5 +1,5 @@
 
-PATH <- 'D:/mse/BI/02_data-analytics/02_workshop/workshop-1-3_babies-stoerche.csv'
+PATH <- '00_data/babies-stoerche.csv'
 
 JAHR <-     c(1965, 1971, 1974, 1977, 1978, 1979, 1980)
 BABIES <-   c(1061,  788,  631,  583,  577,  580,  654)

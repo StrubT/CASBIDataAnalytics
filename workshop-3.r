@@ -1,5 +1,5 @@
 
-PATH <- 'D:/mse/BI/02_data-analytics/03_data/WORLD.CSV'
+PATH <- '00_data/WORLD.CSV'
 
 WORLD <- read.csv(PATH)
 WORLD. <- WORLD[c(5,6,8,9,10,12,16:19)]

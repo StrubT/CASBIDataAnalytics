@@ -1,5 +1,5 @@
 
-PATH <- 'D:/mse/BI/02_data-analytics/03_data/AUTOPREISE.CSV'
+PATH <- '00_data/AUTOPREISE.CSV'
 
 AP <- read.csv(PATH)
 

@@ -1,0 +1,15 @@
+PROGNOSE,TEMPERATUR,LUFTFEUCHTIGKEIT,WIND,SPIEL
+sonnig,warm,hoch,nein,nein
+sonnig,warm,hoch,ja,nein
+bewoelkt,warm,hoch,nein,ja
+regnerisch,mild,hoch,nein,ja
+regnerisch,kalt,normal,nein,ja
+regnerisch,kalt,normal,ja,nein
+bewoelkt,kalt,normal,ja,ja
+sonnig,mild,hoch,nein,nein
+sonnig,kalt,normal,nein,ja
+regnerisch,mild,normal,nein,ja
+sonnig,mild,normal,ja,ja
+bewoelkt,mild,hoch,ja,ja
+bewoelkt,warm,normal,nein,ja
+regnerisch,mild,hoch,ja,nein
