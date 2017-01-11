@@ -53,7 +53,7 @@ PIMA_PRED <- predict(PIMA_MODEL, PIMA_TEST, type = "class")
 
 library(nnet)
 
-(PIMA_MODEL <- nnet(PIMA_FORM, PIMA_TRAIN, size = 1, maxit = 1000))
+(PIMA_MODEL <- nnet(PIMA_FORM, PIMA_TRAIN, size = 1, maxit = 1000, decay = 1e-3))
 
 PIMA_PRED <- predict(PIMA_MODEL, PIMA_TEST, type = "class")
 (PIMA_TAB <- table(PIMA_TEST[, CLASS_COL], PIMA_PRED))
@@ -63,5 +63,5 @@ PIMA_PRED <- predict(PIMA_MODEL, PIMA_TEST, type = "class")
 
 ERR_VAL <- c(ERR_KNN, ERR_RPART, ERR_NAIVEBAYES, ERR_SVM, ERR_NNET)
 ERR_NAME <- c('KNN', 'RPART', 'NAIVEBAYES', 'SVM', 'NNET')
-X <- barplot(ERR_VAL, names.arg = ERR_NAME, ylim = c(0, 1), col = 'darkred')
+X <- barplot(ERR_VAL, names.arg = ERR_NAME, ylim = c(0, 1), col = '#800000')
 text(X, y = ERR_VAL + 0.05, labels = paste(format(ERR_VAL * 100, digits = 3), "%", sep = ""))
