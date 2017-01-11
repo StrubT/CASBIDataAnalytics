@@ -11,7 +11,7 @@ biplot(WINE_PC)
 PRED <- predict(WINE_PC)
 plot(PRED)
 
-WINE_COR <- cor(cbind(WINE, WINE_PC$x[,1:2]))
+WINE_COR <- cor(cbind(WINE, WINE_PC$x[, 1:2]))
 
 library(corrplot)
 corrplot(WINE_COR)

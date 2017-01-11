@@ -5,7 +5,7 @@ WORLD <- read.csv(PATH)
 
 ### METRISCH ###
 
-WORLD_MET <- WORLD[c(5,6,8,9,10,12)]
+WORLD_MET <- WORLD[c(5, 6, 8, 9, 10, 12)]
 names(WORLD_MET)
 summary(WORLD_MET)
 

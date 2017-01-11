@@ -17,4 +17,4 @@ GELD_MODEL = glm(GELD_FORMULA, data = GELD, family = binomial)
 B0 <- GELD_MODEL$coefficients[1]
 B1 <- GELD_MODEL$coefficients[2]
 plot(GELD_FORMULA)
-curve(1 / (1 + exp(-B0 - B1 * x)), add = TRUE)
+curve(1 / (1 + exp( - B0 - B1 * x)), add = TRUE)

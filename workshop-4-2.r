@@ -15,4 +15,4 @@ PREIS_PREDICTION <- predict(AP_MODEL, AP)
 head(data.frame(AP$PREIS, PREIS_PREDICTION))
 
 plot(AP$PREIS, PREIS_PREDICTION)
-abline(y~x, coef = c(0, 1))
+abline(y ~ x, coef = c(0, 1))
